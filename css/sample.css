@@ -121,7 +121,8 @@ header {
         background-color: #ffffff;
         width: calc(100% / 2 - 22px); }
       #new_item .sp_new_title {
-        color: #626262;
+        color: #887f69;
+        font-size: 20px;
         font-weight: bold;
         width: 100%;
         text-align: center;
@@ -226,10 +227,12 @@ header {
     margin-right: 60px; }
   #product .tax2 {
     color: #e92e72;
-    font-size: 14px; }
+    font-size: 14px;
+    font-style: italic; }
   #product .tax3 {
     color: #e92e72;
-    font-size: 25px; }
+    font-size: 25px;
+    font-style: italic; }
   #product .tax4 {
     color: #000000;
     font-size: 14px; }
@@ -237,7 +240,10 @@ header {
     margin-top: 10px; }
   @media (max-width: 550px) {
     #product .sp_tax_right {
-      padding: 15px; }
+      display: block;
+      margin: 30px auto 30px auto; }
+    #product .quant {
+      margin-right: 38px; }
     #product .hr5 {
       margin: 0;
       color: #887f69;
@@ -263,6 +269,8 @@ header {
     #product .list_img {
       flex: 1; } }
   @media (min-width: 551px) {
+    #product .quant {
+      margin-right: 37px; }
     #product .hr5 {
       display: none; }
     #product .product_box {
@@ -319,6 +327,8 @@ header {
         width: calc(100% / 2 - 22px); }
       #popural_item .sp_popural_title {
         color: #887f69;
+        font-size: 20px;
+        font-size: 20px;
         font-weight: bold;
         width: 100%;
         text-align: center;
@@ -327,7 +337,7 @@ header {
 
 #shopping_guid .otodoke_box, #shopping_guid .kessai_box {
   background: #ffffff;
-  padding: 10px;
+  padding: 20px;
   margin-bottom: 10px;
   flex: 1; }
 #shopping_guid .shg_img {
@@ -350,7 +360,8 @@ header {
   #shopping_guid {
     padding: 0 10px; }
     #shopping_guid .sp_guid_title {
-      color: #626262;
+      color: #887f69;
+      font-size: 20px;
       font-weight: bold;
       width: 100%;
       text-align: center;
@@ -542,6 +553,7 @@ footer {
       margin-left: 20px;
       margin-right: 20px; }
       footer .pagetop {
+        margin-top: 20px;
         text-align: center; }
       footer p {
         font-size: 14px; } }

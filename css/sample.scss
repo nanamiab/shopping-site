@@ -219,7 +219,8 @@ padding: 0 10px;
 }
 
 .sp_new_title{
-    color: #626262;
+    color: #887f69;
+    font-size: 20px;
     font-weight: bold;
     width: 100%;
     text-align: center;
@@ -385,11 +386,13 @@ td{
 .tax2 {
   color: #e92e72;
   font-size:14px;
+  font-style:italic;
 }
 
 .tax3 {
 color: #e92e72;
   font-size:25px;
+  font-style:italic;
 }
 
 .tax4{
@@ -403,8 +406,13 @@ color: #e92e72;
 
 @media (max-width: 550px) {
  .sp_tax_right{
-    padding: 15px;
+ display: block;
+    margin: 30px auto 30px auto;
  }
+ 
+ .quant{
+  margin-right: 38px;
+}
  
   .hr5{
     margin:0;
@@ -457,6 +465,11 @@ flex:1;
 }
 
 @media (min-width: 551px){
+.quant{
+  margin-right: 37px;
+}
+
+  
 .hr5{
   display:none;
 }
@@ -557,6 +570,8 @@ padding: 0 10px;
 
 .sp_popural_title{
     color: #887f69;
+    font-size: 20px;
+    font-size: 20px;
     font-weight: bold;
     width: 100%;
     text-align: center;
@@ -574,7 +589,7 @@ padding: 0 10px;
 
   .otodoke_box ,.kessai_box{
     background:#ffffff;
-    padding:10px;
+    padding:20px;
     margin-bottom:10px;
     flex: 1;
   }
@@ -608,7 +623,8 @@ padding: 0 10px;
     padding: 0 10px ;
 
   .sp_guid_title{
-    color: #626262;
+    color: #887f69;
+    font-size: 20px;
     font-weight: bold;
     width: 100%;
     text-align: center;
@@ -939,6 +955,7 @@ margin-left: 145px;
   @media (max-width: 550px) { 
     
   .pagetop{
+    margin-top:20px;
     text-align:center;
   }
   
