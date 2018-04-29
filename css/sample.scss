@@ -41,6 +41,11 @@ header{
       text-align: center;
     }
     
+          .top_sp_icon{
+      width:24px;
+      height:24px;
+    }
+    
     .logo{
           text-align: center;
           margin-top: 20px;
@@ -130,6 +135,7 @@ header{
 
 #sub_cover{
   
+    padding: 0 10px;
   
   .top_box{
     background-color:#e8e4da;
@@ -150,6 +156,8 @@ header{
   .cate_image_sp{
     display:none;
   }
+  
+  
   }
   
   @media (max-width: 550px) {
@@ -193,11 +201,18 @@ padding: 0 10px;
 }
 
  .back_box{
-   margin-right: 440px;
+   //margin-right: 440px;
  }
+
+.next_box{
+  //display: block;
+  //margin: 10px 0 0px auto;
+  margin-left: 320px;
+}
 
 }
 // min-width 551
+
 
 
 
@@ -219,18 +234,24 @@ padding: 0 10px;
 }
 
 .sp_new_title{
-    color: #887f69;
-    font-size: 20px;
-    font-weight: bold;
+
     width: 100%;
     text-align: center;
     margin-bottom: 10px;
     }
+.sp_title{
+  width:120px;
+}
 
 .sousa_box{
   width: 100%;
     display: flex;
     //padding-right: 20px;
+}
+.next_box{
+  //display: block;
+  //margin: 10px 0 0px auto;
+  margin-left: 60px;
 }
 
 }
@@ -238,6 +259,7 @@ padding: 0 10px;
 
 .sousa_box{
   display:flex;
+  width: 100%;
 }
 
 .back_box ,.next_box{
@@ -245,13 +267,9 @@ padding: 0 10px;
   padding:10px;
   width:115px;
   margin-top: 10px;
+  flex:1;
 }
 
-
-.next_box{
-  display: block;
-  margin: 10px 0 0px auto;
-}
 
 .box_text{
   color:#ffffff;
@@ -569,15 +587,19 @@ padding: 0 10px;
 }
 
 .sp_popural_title{
-    color: #887f69;
-    font-size: 20px;
-    font-size: 20px;
-    font-weight: bold;
     width: 100%;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     }
+
+.sp_title{
+  width:150px;
+}
+
+.sp_title_list{
+  width:110px;
+}
 
 }
 //max width 550
@@ -623,14 +645,15 @@ padding: 0 10px;
     padding: 0 10px ;
 
   .sp_guid_title{
-    color: #887f69;
-    font-size: 20px;
-    font-weight: bold;
     width: 100%;
     text-align: center;
-    margin-bottom:10px;
-    margin-top:10px;
+    margin-bottom:20px;
+    margin-top:20px;
     }
+    
+  .sp_title{
+    width:170px;
+  }
 
     .title{
     display:none;
